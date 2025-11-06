@@ -1,0 +1,65 @@
+Metadata-Version: 2.4
+Name: jaseci
+Version: 2.0.0
+Summary: Jaseci - A complete AI-native programming ecosystem with Jac language, LLM integration, cloud deployment, and Streamlit visualization
+License: MIT
+Keywords: jac,jaclang,jaseci,ai,llm,cloud,streamlit,programming-language,machine-learning,artificial-intelligence
+Author: Jason Mars
+Author-email: jason@mars.ninja
+Maintainer: Jason Mars
+Maintainer-email: jason@mars.ninja
+Requires-Python: >=3.11.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Dist: byllm (>=0.4.5,<0.5.0)
+Requires-Dist: jac-cloud (>=0.2.10,<0.3.0)
+Requires-Dist: jac-streamlit (>=0.0.4,<0.0.5)
+Requires-Dist: jaclang (>=0.8.10,<0.9.0)
+Project-URL: Documentation, https://jac-lang.org
+Project-URL: Homepage, https://jaseci.org
+Project-URL: Repository, https://github.com/Jaseci-Labs/jaseci
+Description-Content-Type: text/markdown
+
+# Jaseci 
+### Complete AI-Native Programming Ecosystem
+
+Jaseci is a meta-package that provides a unified installation for the complete Jaseci ecosystem.
+
+## What's Included
+
+When you install `jaseci`, you automatically get:
+
+- **jaclang** - The Jac programming language
+- **byllm** - LLM integration for AI-native programming  
+- **jac-cloud** - Cloud deployment and scaling capabilities
+- **jac-streamlit** - Streamlit integration for visualization
+
+## Installation
+
+```bash
+pip install jaseci
+```
+
+## Quick Start
+
+After installation, you can start using Jac:
+
+```bash
+jac --help
+```
+
+## Documentation
+
+- **Jac Language**: [https://www.jac-lang.org](https://www.jac-lang.org)
+- **byLLM (AI Integration)**: [https://www.byllm.ai](https://www.byllm.ai)
+- **Jac Cloud**: [https://www.jac-lang.org/learn/jac-cloud/introduction/](https://www.jac-lang.org/learn/jac-cloud/introduction/)
+- **Jaseci Homepage**: [https://jaseci.org](https://jaseci.org)
+- **GitHub Repository**: [https://github.com/Jaseci-Labs/jaseci](https://github.com/Jaseci-Labs/jaseci)
+
+## Version 2.0.0
+
+This major release marks the transition to a modular ecosystem where each component is independently maintained and versioned, while this meta-package provides convenient unified installation.

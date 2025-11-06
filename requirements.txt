@@ -1,0 +1,11 @@
+jaclang
+byllm
+gitpython
+tree-sitter
+tree-sitter-python
+jaseci
+gitpython
+networkx
+networkx-mermaid
+requests
+streamlit

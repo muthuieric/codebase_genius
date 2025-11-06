@@ -1,0 +1,3 @@
+[jac]
+byllm=byllm.plugin:JacMachine
+

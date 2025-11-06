@@ -1,0 +1,3 @@
+[console_scripts]
+jac=jaclang.cli.cli:start_cli
+

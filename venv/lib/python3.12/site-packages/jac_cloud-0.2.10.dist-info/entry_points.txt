@@ -1,0 +1,7 @@
+[console_scripts]
+standalone=jac_cloud.runner:run
+
+[jac]
+jac=jac_cloud.plugin.cli:JacCmd
+serve=jac_cloud.plugin.jaseci:JacPlugin
+
